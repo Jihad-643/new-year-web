@@ -1,0 +1,310 @@
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title{
+    font-size: 45px;
+    color: white;
+}
+
+.sub-title{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+   
+header{
+    background-image: url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+   
+
+
+}
+
+.header-section{
+    text-align: center;
+    padding: 180px 385px;
+    
+   
+}
+
+.hero-section{
+    text-align: center;
+}
+
+.hero-section .head{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 88px;
+    margin-bottom: 48px;
+}
+
+.offer-text{
+    font-size:24px;
+    font-weight: 500;
+     color: #FF0000;
+     margin-bottom: 16px;
+
+}
+.category-text{
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.hero-image{
+    height: 500px;
+    max-width:800px;
+    
+
+}
+
+/* banner */
+.banner{
+  
+
+}
+.banner-bg{
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    
+}
+
+.banner-content{
+    text-align: center;
+    color: white;
+    
+}
+
+.banner-title{
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+
+
+
+}
+
+.invitation{
+    /* text-align: center; */
+    font-weight: 600;
+    font-size: 32px;
+    background-color: #FF0000;
+    background: linear-gradient(to bottom, #FF0000 0%, rgb(255, 255, 255) 100%);
+    margin: 0 auto;
+ 
+
+}
+
+.btn{
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-top: 48px;
+    border-radius: 8px;
+
+}
+
+.invitation-card{
+    text-align: center;
+    padding: 100px 380px;
+
+}
+
+.offer{
+
+    margin: 140px;
+}
+
+
+.coloum-content{
+    
+    gap: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.offer .title ,.gift-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF0000;
+   
+}
+.offer .sub-title, .gift-subtitle ,.contact .contact-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+
+.font-style{
+    color: rgb(103, 101, 101);
+}
+
+
+
+.offer .third-coloum .title{
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.offer .third-coloum .image{
+    height: 140px;
+
+}
+
+.Third-coloum .title{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.offer .coloum-content .middle-coloum .image{
+    
+      border: solid red 20px ;
+       border-radius:500px; 
+       padding: 30px;        /* আগের 50px থেকে কমিয়ে দিচ্ছি */
+    width: 350px;         /* আগের 463px থেকে ছোট করা */
+    height: 350px; 
+}
+
+/* holiday section */
+
+.holiday-section , .contact{
+    text-align: center;
+   padding: 140px 120px;
+}
+
+.holiday{
+    padding:0px 266px;
+}
+.holiday h3{
+    font-size: 18px;
+}
+.holiday h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.holiday .p{
+    font-weight: 500px;
+    margin-bottom: 28px;
+  
+}
+
+
+.holiday-image{
+    display: flex;
+    gap: 180px;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+
+.gift{
+    padding: 0px 140px;
+    margin: 0 auto;
+    /* display: flex; */
+   text-align: center;
+}
+.img-1{
+    margin-top: 64px;
+    height:100%;
+    width: 500px;
+
+    /* position: bottom left; */
+}
+/* .img-2{
+    
+    height: 75%;
+} */
+
+.holiday-image {
+    background-image: url("../images/Rectangle\ 2.png");
+
+    background-repeat: no-repeat;
+    background-position: bottom ;  
+      
+}
+
+
+.row-img1, .row-img2{
+    display: flex;
+    gap: 10px;
+    /* height: 400px;
+    width: 380px; */
+   
+}
+
+.gift-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+}
+.gift-section{
+     text-align: center;
+}
+
+input[type="text"]
+{
+    height: 72px;
+    width: 648px;
+    border-radius: 40px;
+    margin-top: 48px;
+    border: none;
+   
+
+}
+.contact{
+    background-color: beige;
+    margin: 140px;
+    
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    /* padding: 298px 632px 247px 640px; */
+    
+}
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+     padding: 30px 60px;
+}
+
+
+footer{
+    background-color: black;
+    height: auto;
+}
+.footer-section p, .footer-copyright p{
+    color: aliceblue;
+}
+
+.footer-section{
+    padding: 30px 60px;
+    margin-bottom: 98px;
+}
+
+
+
+
