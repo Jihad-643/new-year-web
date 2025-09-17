@@ -71,16 +71,30 @@ header{
   
 
 }
-.banner-bg{
-    background-image: url("../images/Vectorrr.png");
-    background-repeat: no-repeat;
-    
+.banner-bg {
+    height: 550px;
+    background: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.9) 20%, rgba(242, 238, 238, 0) 80%), 
+        url("../images/Vectorrr.png") no-repeat center center;
+    background-size: cover;
+}
+.banner-btn{
+    padding-left: 158px;
+}
+
+.banner-btn .btn{
+    color: rgb(252, 252, 252);
+   
+    background-color: black;
+    border: none;
+
 }
 
 .banner-content{
-    text-align: center;
-    color: white;
     
+    color: white;
+    padding-top: 126px;
+    padding-left: 126px;  
 }
 
 .banner-title{
